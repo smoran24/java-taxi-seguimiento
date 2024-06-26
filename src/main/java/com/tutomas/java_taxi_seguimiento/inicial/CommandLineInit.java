@@ -16,7 +16,7 @@ import java.util.List;
 public class CommandLineInit implements CommandLineRunner {
 
     private final RestTemplate restTemplate = new RestTemplate();
-    private final String url = "https://vite-taxi-seguimiento.vercel.app/taxiapp/send-coordenada";
+    private final String url = "https://java-taxi-seguimiento.onrender.com/taxiapp/send-coordenada";
     //private final String url = "http://localhost:8080/taxiapp/send-coordenada";
 
     @Override
